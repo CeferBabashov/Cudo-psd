@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --tit: "Titillium Web", sans-serif;
+    --activeReng: #643a79;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    font: 600 18px var(--tit);
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 30px 80px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-top: 60px;
+}
+
+
+/* header css start */
+
+header {
+    background-color: #87509c;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+header nav ul {
+    float: right;
+    padding-top: 10px;
+}
+
+header nav ul li a {
+    font: 400 16px var(--tit);
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav {
+    padding-top: 55px;
+}
+
+.active,
+header nav ul li:hover {
+    background-color: var(--activeReng);
+    border-radius: 4px;
+}
+
+.header-body {
+    padding-bottom: 145px;
+}
+
+.header-body h1 {
+    font: bold 42px var(--tit);
+    line-height: 49px;
+    color: #f7f3ea;
+    text-align: center;
+    margin-top: 145px;
+}
+
+.header-body button {
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40;
+}
+
+/* end header */
+/* start section */
+
+#servis {
+    background-color: #17c2a4;
+    padding-bottom: 125px;
+}
+
+#servis .icon div,
+.membership div {
+    height: auto;
+    vertical-align: top;
+    /* Ask! */
+}
+
+section h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+}
+
+section p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+    width: 650px;
+    margin: auto;
+}
+
+section hr {
+    margin: auto;
+    width: 90px;
+    height: 4px;
+    background-color: #14a58c;
+    margin-top: 25px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.icon h2 {
+    font: bold 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.icon p {
+    width: 204px;
+    font: 300 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.icon div {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 65px;
+    text-align: center;
+}
+
+
+/* end section */
+/* start team */
+#team {
+    background-color: #e7f1f8;
+    padding-bottom: 188px;
+}
+
+#team h1 {
+    font: 700 41px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+}
+
+#team hr {
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#team p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+
+}
+
+.membership div {
+    display: inline-block;
+    margin-top: 80px;
+    padding: 0 20px;
+    text-align: center;
+    width: 24%;
+}
+
+#team .membership p {
+    width: 204px;
+}
+
+.membership img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+}
+
+#team .membership h1 {
+    font: 700 24px var(--tit);
+    margin-top: 5px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #27283d;
+}
+
+#team .membership h2 {
+    margin-top: 4px;
+    margin-bottom: 35px;
+    font: 400 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+
+}
+
+/* end team id */
+#skills {
+    padding-bottom: 120px;
+}
+
+#skills h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#skills hr {
+    width: 87px;
+    height: 4px;
+    background-color: #dfe8ed;
+}
+
+#skills p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.chart div {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+#skills .chart h3 {
+    font: 600 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* end skills */
+/* start portdolio */
+#portfolio {
+    background-color: #ffdd99;
+    padding-bottom: 100px;
+}
+
+#portfolio hr {
+    width: 87px;
+    height: 4px;
+    background-color: #e5c37f;
+}
+
+#portfolio h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #393939;
+    text-align: center;
+}
+
+#portfolio p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    text-align: center;
+}
+
+#portfolio div ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.0784313725490196);
+}
+
+#portfolio div ul li a {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #393939;
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-family: "Titillium Web";
+}
+
+#portfolio .active {
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#portfolio ul {
+    display: inline-block;
+}
+
+#portfolio .container div {
+    text-align: center;
+}
+
+#portfolio .container div h6 {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #393939;
+}
+
+#portfolio .photo {
+    display: inline-block;
+    margin-top: 60px;
+    width: 49%;
+    padding: 0 20px;
+}
+
+#portfolio .photo img {
+    width: 100%;
+}
+
+#portfolio button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 30px 27px;
+    border-radius: 4px;
+    background-color: #17c2a4;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+    margin-top: 80px;
+    cursor: pointer;
+    border-bottom: 4px solid #14a58c;
+}
+
+/* end portfolio */
+/* start  */
+#aboutus {
+    background-color: #d74680;
+    padding-bottom: 130px;
+}
+
+#aboutus h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#aboutus hr {
+    width: 87px;
+    height: 4px;
+    background-color: #6d6a6a;
+}
+
+#aboutus h6 {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#aboutus .container div {
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+#aboutus .aboutimg {
+    width: 100px;
+    height: 100px;
+}
+
+#aboutus .aboutimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+#aboutus .aboutme h6 {
+    font: 400 21px var(--tit);
+    width: 297px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+}
+
+#aboutus .aboutme h2 {
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#aboutus .aboutme span {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffdd99;
+    text-align: left;
+}
+
+
+/* end aboutus */
+/* start form */
+#form {
+    background-color: #3c5499;
+    padding-bottom: 110px;
+}
+
+#form h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#form hr {
+    width: 87px;
+    height: 4px;
+    background-color: #273a71;
+}
+
+#form h6 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    text-align: center;
+}
+
+#form form input {
+    width: 400px;
+    border-radius: 4px;
+    background-color: #273a71;
+    border: none;
+    outline: none;
+    margin-left: 90px;
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+}
+
+#form form input::placeholder {
+    font: 400 18px var(--tit);
+    line-height: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+#form form textarea {
+    margin-top: 30px;
+    width: 899px;
+    border-radius: 4px;
+    background-color: #273a71;
+    outline: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    border: none;
+    margin-left: 85px;
+}
+
+#form form textarea::placeholder {
+    font: 400 18px var(--tit);
+    line-height: 18px;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+
+#form form .btn {
+    background-color: #30bae7;
+    text-transform: uppercase;
+}
+
+#form form button {
+    border-bottom: 4px solid #299ec5;
+}
+
+/* end form */
+/* start footer */
+
+footer {
+    background-color: #344b8e;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li a {
+    font: 600 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 45px 30px;
+}
+
+footer ul li.active a{
+    color: #30bae7;
+}
+footer ul li.active{
+    background-color: transparent;
+    /* Ask ! */
+}
+/* end footer */
+/* button da action yoxdu ama topa gedir  */
+/* display flex! */
+/* inputlarin padding (plaveholder) yazilanda basdan baslamasa */
+/* ul li a review */
+/* general coding view*/
+/* ul lerde active hover  */
